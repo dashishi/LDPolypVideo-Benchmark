@@ -10,7 +10,7 @@ In order to improve the efficiency of polyp annotation, we design an intelligent
 Extensive experiments have been conducted to evaluate state-of-the-art object detection approaches on our LDPolypVideo dataset. The average drops of Recall and Precision of four SOTA approaches on this dataset are 26\% and 15\%, respectively. 
 The great performance drop demonstrates the significant challenges but also the great value of our large-scale and diverse polyp video dataset to facilitate the research on polyp detection.
 
-### Dataset Details
+### Overview of dataset
 In order to increase the size and diversity of colonoscopy data for training and evaluation of polyp detection approaches, we present a large-scale and diverse colonoscopy video dataset named LDPolyVideo.
 It consists of 160 videos with 40,266 frames, nearly four times the size of the largest existing fully-annotated dataset.
 There are 33,884 frames that contain at least one polyp and in total 200 labeled polyps, which are more than 11 times the polyps in CVC-ClinicVideoDB.
@@ -18,7 +18,11 @@ The polyps present more diverse morphologies.
 Fig.1 shows a set of example images and the annotated masks for polyps.
 Besides, we also provide 103 videos, including 861,400 frames without full annotations. Each video has a label indicating whether it contains polyps. 
 These videos enrich the data diversity and will support unsupervised and semi-supervised methods.
-Based on our LDPolyVideo dataset, we evaluate a number of state-of-the-art approaches for polyp detection to analyze their strengths and weaknesses, demonstrating the challenges of colonoscopy polyp detection in clinical examination
+Based on our LDPolyVideo dataset, we evaluate a number of state-of-the-art approaches for polyp detection to analyze their strengths and weaknesses, demonstrating the challenges of colonoscopy polyp detection in clinical examination.
+
+![data example](https://github.com/dashishi/LDPolypVideo-Benchmark/blob/main/images/dataset-examples.jpg)
+
+![summary](https://github.com/dashishi/LDPolypVideo-Benchmark/blob/main/images/summary.jpg)
 ### Citation
 > Yiting. Ma, Xuejin. Chen, Kai. Cheng, Yang. Li and Bin. Sun. "LDPolypVideo Benchmark: A Large-scale Colonoscopy Video Dataset of Diverse Polyps", Medical Image Computing and Computer Assisted Intervention Society, 2021
 
