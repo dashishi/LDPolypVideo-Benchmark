@@ -27,6 +27,6 @@ Based on our LDPolyVideo dataset, we evaluate a number of state-of-the-art appro
 > Yiting. Ma, Xuejin. Chen, Kai. Cheng, Yang. Li and Bin. Sun. "LDPolypVideo Benchmark: A Large-scale Colonoscopy Video Dataset of Diverse Polyps", Medical Image Computing and Computer Assisted Intervention Society, 2021
 
 ### Download
-[Click here to download the whole dataset](https://pan.baidu.com/s/1so6Sj1FJ87vsipWLpCSscA)
+[Click here to download the whole dataset](https://pan.baidu.com/s/1E7f4nqD7uUOQk7z3i1gGfw)
 
 Extraction code: ustc
